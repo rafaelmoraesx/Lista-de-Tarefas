@@ -1,0 +1,55 @@
+/* estilo para a pagina */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* estilo para o conteiner principal */
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* estilo para o input de tarefa */
+#taskinput {
+    width: calc(100% - 40px);
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* estilo quando o input de tarefa esta em foco */
+#taskinput:focus {
+    outline: none;
+    border-color: dodgerblue;
+}
+
+/* estilo para a lista de tarefas */
+#tasklist {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* estilo para cada item da lista de tarefas */
+li {
+    padding: 8px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+/* estilo para o botão X */
+.DELETE {
+    float: right;
+    cursor: pointer;
+    color: red;
+}
+
+/* estilo quando o mouse esta em cima do botão X */
+.DELETE:hover {
+    color: darkred;
+}
